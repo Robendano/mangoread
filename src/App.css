@@ -1,0 +1,18 @@
+@font-face{
+  font-family: Montserrat;
+  src: url('./images/montserrat/static/Montserrat-Regular.ttf');
+}
+@font-face{
+  font-family: MontserratMedium;
+  src:url("./images/montserrat/static/Montserrat-Medium.ttf");
+}
+
+body{
+  margin: 0;
+  background: #F3F3F3;
+  font-family: 'Montserrat';
+}
+#checkbox + label:before{
+  content: '✔';
+  font-size: 20px;
+}
